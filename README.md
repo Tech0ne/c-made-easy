@@ -28,17 +28,7 @@ preprocessing directives :
 
 ## Usage
 
-### <u>Lists :</u>
-
-- <a href="">Wiki</a>
-
-### <u>Dicts :</u>
-
-- <a href="">Wiki</a>
-
-### <u>Args :</u>
-
-- <a href="">Wiki</a>
+- <a href="https://github.com/Tech0ne/c-made-easy/wiki/">Wiki</a>
 
 ---
 
