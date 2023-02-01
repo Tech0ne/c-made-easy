@@ -28,17 +28,7 @@ preprocessing directives :
 
 ## Usage
 
-### <u>Lists :</u>
-
-- <a href="">Wiki</a>
-
-### <u>Dicts :</u>
-
-- <a href="">Wiki</a>
-
-### <u>Args :</u>
-
-- <a href="">Wiki</a>
+- <a href="https://github.com/Tech0ne/c-made-easy/wiki/">Wiki</a>
 
 ---
 
@@ -46,4 +36,4 @@ preprocessing directives :
 
 - [x] Lists
 - [ ] Dicts
-- [ ] Args
+- [ ] ~~Args~~ (I had my evening trying to find a way to do this, I will do the dict, try finding some other things to add, and maybe after come back on that)
