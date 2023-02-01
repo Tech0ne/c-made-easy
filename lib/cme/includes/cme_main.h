@@ -8,6 +8,8 @@
 #ifndef INCLUDED_CME_MAIN_H
     #define INCLUDED_CME_MAIN_H
 
+    #include <stdlib.h>
+
     #define true 1
     #define false 0
 typedef unsigned char bool;

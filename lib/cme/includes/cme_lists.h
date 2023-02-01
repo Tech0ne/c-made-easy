@@ -2,14 +2,11 @@
 ** EPITECH PROJECT, 2023
 ** cme - lists
 ** File description:
-** main header file
+** sample lists with associated functions
 */
 
 #ifndef INCLUDED_CME_LISTS_H
     #define INCLUDED_CME_LISTS_H
-
-    #include <stdio.h>
-    #include <stdlib.h>
 
     #define cmelist_create(data) dev_cmelist_create(&data)
     #define cmelist_append(obj, data) dev_cmelist_append(obj, &data)
