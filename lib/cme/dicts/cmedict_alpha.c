@@ -46,4 +46,26 @@ bool                dev_cmedict_set(dict dico, void *key, void *value)
     return true;
 }
 
-void               *dev_cmedict_get_
+void               *dev_cmedict_get(dict dico, void *key)
+{
+    if (!dico)
+        return NULL;
+    dict c = dico;
+    for (; c->prev; c = c->prev);
+    for (; c; c = c->next)
+        if (c->key == key)
+            return c->value;
+    return NULL;
+}
+
+void               *dev_cmedict_get_key(dict dico, void *value)
+{
+    if (!dico)
+        return NULL;
+    dict c = dico;
+    for (; c->prev; c = c->prev);
+    for (; c; c = c->next)
+        if (c->value == value)
+            return c->key;
+    return NULL;
+}
