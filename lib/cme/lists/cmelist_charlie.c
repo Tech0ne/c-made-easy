@@ -17,3 +17,13 @@ void                cmelist_destroy(list liste)
     cmelist_remove(liste->prev);
     cmelist_remove(liste);
 }
+
+void                cmelist_free_content(list liste)
+{
+    if (!liste)
+        return;
+    list c = liste;
+    for (; c->prev; c = c->prev);
+    for (; c; c = c->next)
+        free(c->data);
+}

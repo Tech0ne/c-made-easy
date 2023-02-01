@@ -33,5 +33,6 @@ int                 dev_cmelist_getindex(list liste, void *data);
 void               *cmelist_get(list liste, int index);
 void               *cmelist_remove(list liste);
 void               *cmelist_pop(list liste, int index);
+void                cmelist_free_content(list liste);
 
 #endif

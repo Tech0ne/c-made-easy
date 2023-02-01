@@ -7,7 +7,8 @@
 
 NAME	=	libcme.a
 
-SRC	=	lists/*.c
+SRC	=	lists/*.c	\
+		dicts/*.c
 
 OBJ	=	*.o
 
