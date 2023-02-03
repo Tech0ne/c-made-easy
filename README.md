@@ -18,6 +18,18 @@ Main sys-calls :
 - `malloc`
 - `free`
 
+Lists sys-calls :
+- Only main
+
+Dict sys-calls :
+- Only main
+
+Files sys-calls :
+- `open`
+- `read`
+- `write`
+- `stat`
+
 preprocessing directives :
 - `#ifndef`
 - `#include`

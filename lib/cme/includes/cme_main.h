@@ -9,6 +9,8 @@
     #define INCLUDED_CME_MAIN_H
 
     #include <stdlib.h>
+    #include <unistd.h>
+    #include <sys/stat.h>
 
     #define true 1
     #define false 0
