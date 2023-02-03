@@ -14,7 +14,7 @@ CME will provide (for now) 3 big things :
 
 ## Specifications
 
-sys-calls :
+Main sys-calls :
 - `malloc`
 - `free`
 

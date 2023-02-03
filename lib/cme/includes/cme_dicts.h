@@ -10,12 +10,15 @@
 
     #define dict _dict *
 
-    #define cmedict_create(key, value) dev_cmedict_create(&key, &value)
+    #define cmedict_create(key, value) dev_cmedict_create\
+        ((void *)(&key), (void *)(&value))
     #define cmedict_append(dico, key, value) \
-        dev_cmedict_append(dico, &key, &value)
-    #define cmedict_set(dico, key, value) dev_cmedict_set(dico, &key, &value)
-    #define cmedict_get(dico, key) dev_cmedict_get(dico, key)
-    #define cmedict_get_key(dico, value) dev_cmedict_get_key(dico, value)
+        dev_cmedict_append(dico, (void *)(&key), (void *)(&value))
+    #define cmedict_set(dico, key, value) dev_cmedict_set\
+        (dico, (void *)(&key), (void *)(&value))
+    #define cmedict_get(dico, key) dev_cmedict_get(dico, (void *)(&key))
+    #define cmedict_get_key(dico, value) dev_cmedict_get_key\
+        (dico, (void *)(&value))
 
 typedef struct _dict {
     struct _dict *prev;
